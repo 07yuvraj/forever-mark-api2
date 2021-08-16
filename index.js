@@ -60,6 +60,11 @@ app.get("/allVisitors", (req, res) => {
               fieldValues.designation,
               fieldValues.city,
               docu.id,
+              fieldValues.emailUpdates,
+              fieldValues.countryCallingCode,
+              fieldValues.createDate,
+              fieldValues.frontFacingCategory,
+              fieldValues.frontFacingSubcategory,
             ];
             // console.log(visitor);
             visitors.push(visitor);
